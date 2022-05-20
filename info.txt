@@ -1,0 +1,25 @@
+mkdir p3 
+mkdir backend 
+cd into backend 
+git init
+npm init -y
+p3 create-react-app
+git remote add origin (url)
+git remote -v
+index.js page
+const express = require ('express')
+const app = express()
+
+data = [
+    {name: 'walk the dog', completed: false}
+]
+
+app.get("/", (req, res) => {
+    res.json(data)
+})
+
+app.listen(port, () => {console.log('listen on port ${port}')})
+
+make .gitignore
+node_mon
+package-lock.json
